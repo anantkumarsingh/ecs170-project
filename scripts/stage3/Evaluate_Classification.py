@@ -9,7 +9,7 @@ from sklearn.metrics import confusion_matrix
 
 class Evaluate_Classification:
     """
-    Evaluates trained MLP model on test data
+    Evaluates trained CNN model on test data
     """
 
     def __init__(self, model, test_loader, device):

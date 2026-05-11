@@ -30,7 +30,7 @@ def get_model(dataset_name):
 
 class Setting_Train_Test_S3:
     """
-    Handles model training for Stage 2.
+    Handles model training for Stage 3.
     """
 
     def __init__(self, model, train_loader, test_loader, device, model_optimizer, learning_rate=0.01, momentum=0.9):
